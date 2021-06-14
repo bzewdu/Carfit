@@ -57,16 +57,20 @@ body {
         padding: 0;
     }*/
 
-@media (min-width: 641px) {
+@media (min-width: 414px) {
     li.logo {display:inline-block}
     li.substitute  {display:none}
+    /*.main-nav {font-size: 0.5em;
+        padding: 0;}*/
 
 }
 
-@media (max-width: 640px) {
+@media (max-width: 415px) {
     li.logo {display:none}
     li.substitute {display:inline-block}
-     .main-nav {background-color: transparent;}
+     /*.main-nav {background-color: transparent;}*/
+     .main-nav {font-size: 0.7em;
+       }
 }
 
 /*you can define so many properties including background color*/
