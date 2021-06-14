@@ -62,23 +62,21 @@ body {
     li.substitute  {display:none}
     /*.main-nav {font-size: 0.5em;
         padding: 0;}*/
-  body {margin:0 auto;font-family: Arial;}
-
+        img.cover{width: 414px;}
 }
 
 @media (max-width: 415px) {
     li.logo {display:none}
     li.substitute {display:inline-block}
      /*.main-nav {background-color: transparent;}*/
-     .main-nav {font-size: 0.7em;
+     /*.main-nav {font-size: 0.3em;*/
+
        }
-}
 
 /*you can define so many properties including background color*/
-}
 
 .logo {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .mytext-size {
